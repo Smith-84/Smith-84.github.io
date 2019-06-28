@@ -1,5 +1,5 @@
-let btn = document.querySelector(".modal");
-let modal = document.querySelector(".modal-form");
+var btn = document.querySelector(".modal");
+var modal = document.querySelector(".modal-form");
 
 btn.addEventListener("click", function (evt) {
   evt.preventDefault();

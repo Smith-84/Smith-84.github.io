@@ -314,23 +314,26 @@ a {
 }
 
 .promo-desc {
+  padding-top: 25px;
+  padding-bottom: 47px;
   margin: 0 auto;
-  margin-bottom: 10px;
-  padding-top: 24px;
-  padding-bottom: 36px;
   color: #333333;
-  width: 450px;
+  width: 490px;
   font-weight: 400;
   line-height: 24px;
 }
 
 .modal {
-  display: block;
+  display: inline-block;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
   font: inherit;
   font-size: 21px;
   line-height: 26px;
   color: white;
   vertical-align: middle;
+  box-sizing: border-box;
   background-color: #766357;
   text-transform: uppercase;
   border: none;
@@ -1317,21 +1320,15 @@ a {
   position: relative;
 }
 
-.modal {
-  padding-left: 137px;
-  padding-right: 140px;
-  padding-top: 32px;
-  padding-bottom: 28px;
-}
-
 .show {
   display: none;
 }
+
 
 .site-wrapper {
   width: 1200px;
   margin-right: auto;
   margin-left: auto;
   -webkit-box-shadow: 0 0 6px 5px rgba(0, 1, 1, 0.2);
-  box-shadow: 0 0 6px 5px rgba(0, 1, 1, 0.2);
+  box-shadow: 0 5px 15px 0 rgba(0, 1, 1, 0.2);
 }
